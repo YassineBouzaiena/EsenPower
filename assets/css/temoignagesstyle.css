@@ -1,0 +1,87 @@
+
+    .testimonials-container {
+    max-width: 700px;
+    margin: 3rem auto;
+    background-color: #0e1122;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.testimonials-container .title {
+    color: #00ffd5;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.testimonial-form input,
+.testimonial-form textarea {
+    width: 100%;
+    background: #1a1a2e;
+    color: white;
+    border: 1px solid #00ffd5;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.testimonial-form button {
+    background-color: #00ffd5;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.success {
+    color: #00ffd5;
+}
+.error {
+    color: #ff4d4d;
+}
+
+.carousel {
+    position: relative;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+.carousel-item {
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+    padding: 1rem;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.testimonial-message {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.testimonial-author {
+    margin-top: 0.5rem;
+    color: #aaa;
+}
+
+.carousel-control {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #00ffd5;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control.prev {
+    left: 0;
+}
+.carousel-control.next {
+    right: 0;
+}
